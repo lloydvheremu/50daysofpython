@@ -20,8 +20,7 @@ def word_index(strings:list):
     are uneven.
     So we just check if the max() and min() are returning the same string
     """
-    longest = max(*strings, key=len)
-    shortest = min(*strings, key=len)
+    longest, shortest = max(*strings, key=len), min(*strings, key=len)
     if longest != shortest:
         # if strings.index(max(*strings)) != strings.index(min(*strings)):
         return longest
