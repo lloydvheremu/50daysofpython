@@ -25,9 +25,15 @@ should return 3.16 as the square root
 > Write a function called word_index that takes one argument, a list of strings and returns the index of the longest word in the list. If there is no longest word (if all the strings are of the same length), the function should return zero (0).For example, the list 
 below should return 2. words1 = ["Hate", "remorse", "vengeance"] And this list below, should return zero (0) words2 = ["Love", "Hate"]
 
-## Day 5
+## Day 5: My Discount
 ### Create a function called my_discount. The function takes no arguments but asks the user to input the price and the discount (percentage) of the product. Once the user inputs the price and discount, it calculates the price after the discount. The function should return the price after the discount. 
 > For example, if the user enters 150 as price and 15% as the discount, your function should return 127.5.
 
 #### Extra Challenge: Tuple of Student Sex
 > You work for a school and your boss wants to know how many female and male students are enrolled in the school. The school has saved the students in a list. Your task is to write a code that will count how many males and females are in the list. Here is a list below:students = ['Male', 'Female', 'female', 'male', 'male', 'male', 'female', 'male', 'Female', 'Male', 'Female', 'Male', 'female'] Your code should return a list of tuples. The list above should return: [(‘Male’,7), (‘female’,6)]
+
+## Day 6: User Name Generator
+### Write a function called user_name that generates a username from the user’s email. The code should ask the user to input an email and the code should return everything before the @ sign as their user name.
+> For example, if someone enters ben@gmail.com, the code should return ben as their user name.
+#### Extra Challenge: Zero Both Ends
+> Write a function called zeroed code that takes a list of numbers as an argument. The code should zero (0) the first and the last number in the list. For example, if the input is [2, 5, 7, 8, 9], your code should return [0, 5, 7, 8, 0]
